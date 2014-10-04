@@ -1,0 +1,14 @@
+﻿<Window x:Class="FilePicker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+            <TextBlock Width="400" x:Name="output"/>
+            <Button Click="Button_Click" Content="browse"/>
+            <Button Click="cvButton_Click" Content="cvbrowse"/>
+        </StackPanel>
+
+       
+    </Grid>
+</Window>

@@ -1,0 +1,231 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    
+    <!--Colors-->
+
+    <!-- primary-->
+    <Color x:Key="customBlue"  A="255"   R="54" G="95" B="179"/>
+    <Color x:Key="customRed"  A="255" R="230" G="69" B="69"/>
+    <Color x:Key="backColor" A="255" R="255" G="255" B="255"></Color>
+
+    <Color x:Key="White" A="255" R="255" G="255" B="255"/>
+
+
+
+
+
+    <SolidColorBrush x:Key="customBlueBrush" Color="{StaticResource customBlue}"></SolidColorBrush>
+    <SolidColorBrush x:Key="customDarkRedBrush" Color="{StaticResource customRed}"></SolidColorBrush>
+    <SolidColorBrush x:Key="customBackgroundBrush" Color="{StaticResource backColor}"/>
+
+
+    <SolidColorBrush x:Key="WhiteOpacity7" Color="White" Opacity="0.7"></SolidColorBrush>
+
+    <SolidColorBrush x:Key="WhiteOpacity" Color="White" Opacity="0.4"></SolidColorBrush>
+    <SolidColorBrush x:Key="WhiteOpacity2" Color="White" Opacity="0.2"></SolidColorBrush>
+
+
+
+    <SolidColorBrush x:Key="MouseoverComboboxitem" Color="{StaticResource customBlue}" Opacity="0.1"/>
+    <SolidColorBrush x:Key="BlueopacityBrush" Color="{StaticResource customBlue}" Opacity="0.2"></SolidColorBrush>
+    <SolidColorBrush x:Key="BlueopacityBrush5" Color="{StaticResource customBlue}" Opacity="0.5"></SolidColorBrush>
+
+    <SolidColorBrush x:Key="TileBlueopacityBrush" Color="{StaticResource customBlue}" Opacity="0.7"></SolidColorBrush>
+
+
+    <SolidColorBrush x:Key="MasterDataOpacity" Color="{StaticResource customBlue}" Opacity="0.05"/>
+
+    <SolidColorBrush x:Key="RedBrushOpacity" Color="{StaticResource customRed}" Opacity="0.3"></SolidColorBrush>
+    <SolidColorBrush x:Key="RedBrushOpacity05" Color="{StaticResource customRed}" Opacity="0.05"></SolidColorBrush>
+<!--  -->
+
+    <DataTemplate x:Key="FolderDirectory">
+        <Viewbox Height="40">
+            <Canvas Width="161.953886381772" Height="144.059374630596" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+                <Canvas Canvas.Left="0.0351771556643143" Canvas.Top="-0.0306714686739724">
+                    <Path Fill="{StaticResource customBlueBrush}" Data="M27.173984,98.211833L27.173984,26.986457C27.173984,19.788368,30.722756,14.591369,38.179233,14.591369L74.626759,14.591369C82.083245,14.591369,82.98787,26.749499,90.444357,26.749499L131.96554,26.749499C135.33208,26.749499,137.89713,30.23184,137.89713,34.233174L137.89713,98.211833 27.173984,98.211833z" Stroke="#57565248" StrokeThickness="1.25" StrokeMiterLimit="4"/>
+                    <Path Fill="White" Data="M117.78716,36.773767L117.78716,75.72265 117.78716,95.197088 117.78716,114.67154 100.0151,114.67154 82.243034,114.67154 64.470973,114.67154 46.698909,114.67154 46.698909,95.197088 46.698909,75.72265 46.775671,36.773767 82.243034,36.773767 117.78716,36.773767z" Stroke="#5D000000" StrokeThickness="0.226070627570152" StrokeMiterLimit="4"/>
+                    <Path Fill="{StaticResource MouseoverComboboxitem}" Data="M117.78716,36.773767L117.78716,75.72265 117.78716,95.197088 117.78716,114.67154 100.0151,114.67154 82.243034,114.67154 64.470973,114.67154 46.698909,114.67154 46.698909,95.197088 46.698909,75.72265 46.775671,36.773767 82.243034,36.773767 117.78716,36.773767z" Stroke="#5D000000" StrokeThickness="0.226070627570152" StrokeMiterLimit="4"/>
+                    <Path Fill="{StaticResource customBlueBrush}" Stroke="{StaticResource customBlueBrush}" Data="M16.340118,75.850997L21.660243,119.35397C22.148493,123.34642,26.157842,127.88541,30.167647,127.88541L134.38341,127.88541C137.92746,127.88541,140.18692,122.86168,140.76397,119.35397L147.92063,75.850997C149.20483,68.044749,144.88666,60.2051,138.56949,60.2051L25.691267,60.2051C19.374096,60.2051,15.37994,67.999588,16.340118,75.850997z" StrokeThickness="1.25195956230164" StrokeMiterLimit="4"/>
+                    <Path Fill="White" Data="M17.36376,74.77131C17.14479,75.718777,21.236974,66.419549,28.174951,66.419549L134.15847,66.419549C142.69349,66.419549 145.42542,75.718777 145.6444,74.77131 145.86338,73.823852 150.22438,60.734754 134.33482,60.734754L28.673341,60.734754C15.227487,60.734754,17.582722,73.823852,17.36376,74.77131z" Stroke="{x:Null}" StrokeThickness="1"/>
+                    <Path Fill="{StaticResource MouseoverComboboxitem}" Data="M17.36376,74.77131C17.14479,75.718777,21.236974,66.419549,28.174951,66.419549L134.15847,66.419549C142.69349,66.419549 145.42542,75.718777 145.6444,74.77131 145.86338,73.823852 150.22438,60.734754 134.33482,60.734754L28.673341,60.734754C15.227487,60.734754,17.582722,73.823852,17.36376,74.77131z" Stroke="{x:Null}" StrokeThickness="1"/>
+                </Canvas>
+            </Canvas>
+        </Viewbox>
+    </DataTemplate>
+
+    <DataTemplate x:Key="Drive">
+        <Canvas Width="49.8012608069896" Height="36.0284486159956">
+            <Canvas Canvas.Left="1.02563042303132" Canvas.Top="-6.96262788772583">
+                <Rectangle RadiusX="0.1" Fill="White" RadiusY="0.1" Stroke="{x:Null}" Width="20.625" Height="1" SnapsToDevicePixels="True" Canvas.Left="7.857996" Canvas.Top="33.174183"/>
+                <Path SnapsToDevicePixels="True" Data="M44.796162,25.628688C44.859684,26.878662 44.382159,27.944528 43.474046,27.972438 43.474046,27.972438 5.3553296,27.972437 5.3553297,27.972438 4.0660978,27.972438 3.4875937,27.647491 3.271279,27.104382 3.3630404,28.048714 4.0970964,28.753688 5.3553297,28.753688 5.3553296,28.753687 43.474046,28.753688 43.474046,28.753688 44.550053,28.720617 45.226851,27.329664 44.82621,25.758897L44.796162,25.628688z" Fill="White" Stroke="{x:Null}" StrokeThickness="1"></Path>
+                <Path Stroke="White" Data="M11.642515,8.4157227C11.040823,8.4157227 10.649724,8.6950813 10.409049,9.22801 10.409048,9.22801 3.9940341,25.818732 3.9940341,25.818732 3.9940341,25.818732 3.7533573,26.465247 3.7533573,27.533555 3.7533573,27.533555 3.7533573,36.823651 3.7533573,36.823651 3.7533573,38.178391 4.1974134,38.45055 5.3478414,38.45055L43.034746,38.45055C44.357872,38.45055,44.569062,38.134153,44.569062,36.613058L44.569062,27.322962C44.569062,27.322962,44.671072,26.581271,44.478807,26.059409L37.885616,9.2534336C37.707973,8.7606171,37.334964,8.427184,36.865071,8.4157227L11.642515,8.4157227z" SnapsToDevicePixels="True" Fill="{x:Null}" StrokeThickness="1.00000023841858" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeDashCap="Round" StrokeLineJoin="Round" StrokeMiterLimit="4"/>
+            </Canvas>
+        </Canvas>
+    </DataTemplate>
+
+    <Style TargetType="ListBoxItem" x:Key="FilePickerDrive">
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+        <Setter Property="HorizontalContentAlignment" Value="Stretch"></Setter>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ListBoxItem">
+                    <Grid>
+                        <Grid Name="Gd" Height="45" HorizontalAlignment="Stretch" Margin="0,0,0,10"  Background="{StaticResource customBlueBrush}">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="55"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <ContentControl ContentTemplate="{StaticResource Drive}"></ContentControl>
+                            <ContentPresenter Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center"></ContentPresenter>
+                        </Grid>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="Gd" Property="Background" Value="{StaticResource WhiteOpacity2}"></Setter>
+                        </Trigger>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter TargetName="Gd" Property="Background" Value="{StaticResource customDarkRedBrush}"></Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+    <Style TargetType="ListBoxItem" x:Key="FilePickerDirectory">
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+        <Setter Property="HorizontalContentAlignment" Value="Stretch"></Setter>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ListBoxItem">
+                    <Grid x:Name="baseGrid" Height="90" Width="265" Background="White" Margin="15,20,15,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="60"></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Border BorderBrush="{StaticResource MouseoverComboboxitem}" BorderThickness="2" Padding="1" Background="Transparent" Grid.ColumnSpan="2"></Border>
+                        <ContentControl ContentTemplate="{StaticResource FolderDirectory}" ></ContentControl>
+                        <ContentPresenter  Grid.Column="1" VerticalAlignment="Center" TextBlock.FontSize="18" TextBlock.Foreground="{StaticResource customBlueBrush}" TextBlock.FontFamily="Segoe Ui Dark"></ContentPresenter>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="Control.IsMouseOver" Value="true">
+                            <Setter TargetName="baseGrid" Property="Background" Value="{StaticResource MouseoverComboboxitem}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+    <Style TargetType="ListBoxItem" x:Key="FilePickerFiles">
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+        <Setter Property="HorizontalContentAlignment" Value="Stretch"></Setter>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ListBoxItem">
+                    <Grid  x:Name="baseGrid" Height="200" Width="265" Background="White" Margin="20,20,0,0">
+                        <ContentPresenter  TextBlock.FontSize="18" TextBlock.Foreground="{StaticResource customBlueBrush}" TextBlock.FontFamily="Segoe Ui Dark"></ContentPresenter>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="Control.IsMouseOver" Value="true">
+                            <Setter TargetName="baseGrid" Property="Background" Value="{StaticResource MouseoverComboboxitem}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+  
+
+    <Style TargetType="Button" x:Key="plainButtonAnm">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Name="bd" Height="{TemplateBinding Height}" Padding="1" Width="{TemplateBinding Width}" BorderBrush="Transparent" BorderThickness="2"   RenderTransformOrigin=".5,.5">
+                        <ContentPresenter />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter Property="RenderTransform" TargetName="bd">
+                                <Setter.Value>
+                                    <TransformGroup>
+                                        <ScaleTransform ScaleX="1.03" ScaleY="1.03"/>
+                                    </TransformGroup>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="BorderBrush" Value="{StaticResource customDarkRedBrush}" TargetName="bd"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+    <DataTemplate x:Key="GoupContent">
+        <Path Width="20.1187" RenderTransformOrigin=".5,.5" Name="BackIcon"  Height="15.3312" Canvas.Left="0" Canvas.Top="3.05176e-005" Stretch="Fill" Fill="White" Data="F1 M 0,9.58127L 0,5.74374L 13.4094,5.74374L 7.66559,3.05176e-005L 12.4625,3.05176e-005L 20.1187,7.66562L 12.4625,15.3313L 7.66559,15.3313L 13.4094,9.58127L 0,9.58127 Z ">
+            <Path.RenderTransform>
+                <RotateTransform Angle="270"></RotateTransform>
+            </Path.RenderTransform>
+        </Path>
+    </DataTemplate>
+
+    <Style x:Key="White_Icon_Tooltipstyle" TargetType="ToolTip">
+        <Setter Property="OverridesDefaultStyle" Value="True" />
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ToolTip">
+                    <Grid>
+                        <Border CornerRadius="3"  Background="White">
+                            <TextBlock  Margin="5" Foreground="{StaticResource customBlueBrush}"  FontFamily="Segoe Ui Dark" FontSize="12" >
+                             <ContentPresenter></ContentPresenter>
+                            </TextBlock>
+                        </Border>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="Rectangle_Btn" TargetType="Button">
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+        <Setter Property="RenderOptions.BitmapScalingMode" Value="NearestNeighbor"/>
+        <Setter Property="RenderOptions.EdgeMode" Value="Aliased"/>
+        <Setter Property="UseLayoutRounding" Value="True"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid Height="{TemplateBinding Height}" Background="White" Width="{TemplateBinding Width}">
+                        <Grid Height="{TemplateBinding Height}" Background="{TemplateBinding Background}" Width="{TemplateBinding Width}">
+                            <Border x:Name="MouseOverBorder" Opacity="0" SnapsToDevicePixels="True" UseLayoutRounding="True" RenderOptions.BitmapScalingMode="NearestNeighbor" RenderOptions.EdgeMode="Aliased" Background="Transparent" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Margin="{TemplateBinding Padding}"></Border>
+                            <ContentControl ContentTemplate="{TemplateBinding ContentTemplate}" HorizontalAlignment="Center" VerticalAlignment="Center"></ContentControl>
+                            <TextBlock x:Name="ContentStyle" Margin="{Binding Path=Tag,RelativeSource={RelativeSource TemplatedParent}}" Text="{TemplateBinding Content}"  TextElement.Foreground="{TemplateBinding Foreground}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"></TextBlock>
+                        </Grid>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="MouseOverBorder" Property="Opacity" Value="1"></Setter>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="MouseOverBorder" Property="Opacity" Value="1"></Setter>
+                            <Setter TargetName="MouseOverBorder" Property="Background" Value="White"></Setter>
+                            <Setter Property="TextElement.Foreground" TargetName="ContentStyle" Value="{Binding Path=Background,RelativeSource={RelativeSource TemplatedParent}}"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter  Property="Opacity" Value="0.4"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>
